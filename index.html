@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en"> 
-<head> <!-- A tag Head contem os elementos que serão lidos pelo navegador, como os metadados-->
+<head> <!-- A tag head contem os elementos que serão lidos pelo navegador, como os metadados-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device=width, initial=scale=1.0"> 
-	<link rel="stylesheet" type="text/css" href="">
-	<title>instagram</title>
+	<link rel="stylesheet" href="C:\insta-page\style.css">
+	<title>Instagram</title>
 </head>
-<body>< <!--A tag Body contem todos os elementos que serão lidos pelo usuário-->
-	<div class="instagram-wrapper"></div><!--A tag Div é estilizada por CSS e pra isso é necessário definir class ou id-->
-	<div class="instagram-phone"></div>
-	<img src="C:\Pagina do instagram\img\instagram-celular.png" alt="celular"><!--Src aponta o caminho da img-->
-	<div class="instagram-continue"></div>
-	<div class="group"></div><!--Criando o primeiro container-->
-	<img src="C:\Pagina do instagram\img\instagram-logo.png" class="instagram-logo" alt="instagram logo">
-	<div class="profile-photo"></div>
-	<img src="C:\Pagina do instagram\img\perfil-instagram" alt="foto de perfil"><!--alt caso a img não carregue-->
-	<a href="g" class="instagram-login">Continue como claudiotpires</a>
-	<a href="g" class="instagram logout">Remover Conta</a>
-	<div class="group"></div><!--Criando o segundo container-->
-	<div class="get-the-app"></div>
-	<p class="get-app">Baixe o Aplicativo</p><!--Tag P significa paragrafo-->
-	<div class="download"></div>
-	<p class="not-account">Não é claudiotpires?</p>
-	<p class="notaccout">
-		<span class="link-blue">Alternar Contas</span><!--Span é um container generioo--> 
-		ou
-		<span class="link-blue">Inscreva-se</span>		
-	</p>
+<body> <!--A tag body contem todos os elementos que serão lidos pelo usuário-->
+	<div class="instagram-wrapper"><!--declarada uma classe principal-->
+		<div class="instagram-phone"><!--classe do telefone-->
+			<img src="C:\insta-page\img\instagram-celular.png" alt="celular"><!--Src aponta o caminho da img telefone-->
+		</div><!--fechando a div telefone-->
+		<div class="instagram-continue"><!--declarada segunda classe principal-->
+			<div class="group"><!--Criando o primeiro container-->
+				<img src="C:\insta-page\img\instagram-logo.png" class="instagram-logo" alt="instagram logo"><!--img logo-->
+				<div class="profile-photo">
+					<img src="C:\insta-page\img\perfil-instagram.jpg" alt="foto de perfil"><!--alt caso a img não carregue-->
+				</div>
+				<a href="#" class="instagram-login">Continue como claudiotpires</a>
+				<a href="#" class="instagram logout">Remover Conta</a>
+			</div>
+			<div class="group"><!--Criando o segundo container-->
+				<p class="not-account">Não é claudiotpires?</p><!--Tag P significa paragrafo-->
+				<p class="notaccount">
+					<span class="link-blue">Alternar Contas</span><!--Span é um container generico--> 
+					ou
+					<span class="link-blue">Inscreva-se</span>		
+				</p>
+			</div>
+			<div class="get-the-app"><!--ultimo container-->
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+               </div>
+            </div>
+		</div>
+	</div>
 </body>
 </html>
