@@ -4,7 +4,7 @@
 
 ## Desktop Interface
 
-![imagem desktop](https://github.com/claudiopiresdev/insta-page/tree/master/img/Readme.md/desktop.jpeg)
+![imagem desktop](https://github.com/claudiopiresdev/insta-page/tree/master/img/Readme.md/desktop.jpg)
 
 
 
